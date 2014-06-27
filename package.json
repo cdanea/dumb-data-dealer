@@ -1,16 +1,17 @@
 {
-  "name": "fosa",
+  "name": "dumb-data-dealer",
   "version": "0.0.2",
   "scripts": {
-    "test": "mocha --recursive -R spec test"
+    "test": "mocha --recursive -R spec ./test/"
   },
   "publishConfig": {
     "registry": "http://192.168.0.51:4873/",
     "tag": "dev"
   },
   "files": [
+    "bin",
     "lib",
-    "app.js",
+    ".gitignore",
     "package.json"
   ],
   "dependencies": {
