@@ -1,0 +1,30 @@
+{
+  "name": "fosa",
+  "version": "0.0.2",
+  "scripts": {
+    "test": "mocha --recursive -R spec test"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.0.51:4873/",
+    "tag": "dev"
+  },
+  "files": [
+    "lib",
+    "app.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "async": "*",
+    "mysql": "*",
+    "sequelize": "*",
+    "memcached": "*",
+    "underscore": "*",
+    "unirest": "^0.2.7",
+    "express": "^4.4.5",
+    "body-parser": "^1.4.3"
+  },
+  "devDependencies": {
+    "supertest": "*",
+    "chai": "*"
+  }
+}
